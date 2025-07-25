@@ -67,10 +67,8 @@ class LIHTCSerializer(serializers.ModelSerializer):
         fields = (
             'lihtc_project_id',
             'normalized_state_id',
-            'census_tract',
             'census_tract_2000',
             'county_fips_code',
-            'municipality_fips',
             'hud_property_name',
             'property_street_address',
             'city',
